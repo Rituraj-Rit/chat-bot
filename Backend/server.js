@@ -8,7 +8,8 @@ const generateResponse = require('./src/service/ai.service');
 const httpServer = createServer(app);
 const io = new Server(httpServer, { 
   cors:{
-    origin:"http://localhost:5173",
+    // origin:"http://localhost:5173",
+    origin:"https://chat-bot-opal-tau.vercel.app/",
   }
  });
 
