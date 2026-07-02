@@ -35,9 +35,7 @@ function App() {
   //backend
   
   useEffect(() => {
-    // const socketInstance = io("http://localhost:3000");
-
-    const socketInstance = io("https://chat-bot-4nbh.onrender.com");
+    const socketInstance = io("http://localhost:3000");
     setSocket(socketInstance);
 
     socketInstance.on("ai-message-response", (response) => {
