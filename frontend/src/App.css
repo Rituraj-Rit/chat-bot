@@ -3,14 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 24px; */
+  padding: 24px;
   background: linear-gradient(135deg, #eef2ff 0%, #f8fafc 100%);
 }
 
 .chat-window {
-  height: 100vh;
-  /* width: min(100%, 760px); */
-  /* height: min(80vh, 720px); */
+  width: min(100%, 760px);
+  height: min(80vh, 720px);
   display: flex;
   flex-direction: column;
   overflow: hidden;
