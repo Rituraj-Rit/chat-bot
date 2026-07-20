@@ -3,7 +3,9 @@ import { io } from "socket.io-client";
 import "./App.css";
 
 function App() {
+  // backend
   const [socket, setSocket] = useState(null);
+  // fontend 
   const [messages, setMessages] = useState([
     {
       id: 1,
